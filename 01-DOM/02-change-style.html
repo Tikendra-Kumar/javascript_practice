@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="txt">It can delay the rendering of the page because the browser must pause HTML parsing to run the script.</p>
+        <button onclick="changeStyle()">change color </button>
+
+    </body>
+    <script>
+        function changeStyle(){
+        const st = document.getElementById("txt")
+        st.innerText="considered highly outdated and is strongly discouraged for production environments due to several critical"
+
+           st.style.color= "yellow" 
+           st.style.fontSize="50px"   
+
+           }
+    </script>
+</html>

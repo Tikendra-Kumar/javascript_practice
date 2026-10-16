@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Item</title>
+</head>
+<body>
+    <p id="remv">To fix this, you need to save the element to the variable first, apply your styles and text,</p>
+    <button onclick="removeElement()">Remove Item</button>
+    <script>
+        function removeElement(){
+            
+            const ri=document.getElementById("remv")
+            ri.remove()  
+        }
+    </script>
+</body>
+</html>
